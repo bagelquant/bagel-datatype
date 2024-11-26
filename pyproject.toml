@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bagel-datatype"
+version = "0.0.1"
+authors = [
+  { name="Yanzhong Huang", email="eric.yanzhong.huang@gmail.com" },
+]
+description = "A package for bagelquant to handle data types"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas>=2.2.0",
+    "sqlalchemy>=2.0.0",
+    "pymysql>=1.1.1",
+    "cryptography>=43.0.0"
+]   
+
+[project.urls]
+Homepage = "https://github.com/bagelquant/bagel-datatype"
+Issues = "https://github.com/bagelquant/bagel-datatype/issues"
+
